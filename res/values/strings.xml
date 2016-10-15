@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nhungltpk00606_assignment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_danh_sach_lop">DanhSachLopActivity</string>
+    <string name="title_activity_quan_ly_sv">QuanLySVActivity</string>
+    <string name="title_activity_qlsv">QLSVActivity</string>
+    <string name="title_activity_dssv">DSSVActivity</string>
+    <array name="nghanhhoc">
+        <item>
+            lập trình
+        </item>
+        <item>
+            đồ họa
+        </item>
+        <item>
+            kinh tế
+        </item>
+        <item>
+            ứng dụng
+        </item>
+    </array>
+ 
+
+</resources>

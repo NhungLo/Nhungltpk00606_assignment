@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp" >
+
+            <TextView
+                android:id="@+id/textViewMalop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã Lớp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/editTextMalop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp" >
+
+            <TextView
+                android:id="@+id/textViewTenlop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên Lớp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/editTextTensv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp" >
+
+            <Button
+                android:id="@+id/btnXoatrang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Xóa trắng" />
+
+            <Button
+                android:id="@+id/btnLuulop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lưu Lớp" />
+
+            <Button
+                android:id="@+id/btnThoat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thoát" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

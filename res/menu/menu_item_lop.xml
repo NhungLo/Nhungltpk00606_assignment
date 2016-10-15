@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.nhungltpk00606_assignment.MainActivity" >
+
+    <item
+        android:id="@+id/menu_item_lop_sua"
+        android:orderInCategory="100"
+        android:title="sửa"/>
+    
+    <item
+        android:id="@+id/menu_item_lop_xoa"
+        android:orderInCategory="100"
+        android:title="xóa"/>
+    
+    <item
+        android:id="@+id/menu_item_lop_chi_tiet"
+        android:orderInCategory="100"
+        android:title="chi tiết"/>
+
+</menu>
+
+
+
