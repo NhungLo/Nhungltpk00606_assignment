@@ -35,7 +35,6 @@ Bundle bundle;
 		setContentView(R.layout.activity_qlsv);
 		btnThemsv=(Button)findViewById(R.id.btnThemsinhvien);
 		btnThemsv.setOnClickListener(new View.OnClickListener() {
-		
 			@Override
 			public void onClick(View v) {
 				dialogthemSV();}
@@ -150,7 +149,7 @@ Bundle bundle;
 						editTextMa.setText("");
 						editTextTen.setText("");
 						}
-					});
+						});
 		buttonOke.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -159,9 +158,8 @@ Bundle bundle;
 				int malop=(Integer)arMaLop.get(vitriten);
 				Toast.makeText(QLSVActivity.this, "vi tri chọn"+vitriten+" vị trí trong mảng"+vitri, Toast.LENGTH_LONG).show();
 				SinnhVienPoly sv=new SinnhVienPoly(editTextMa.getText().toString()
-						,editTextTen.getText().toString(),spinnerNghanhHoc.getSelectedItem().toString()
-						,RadioButtonNam.isChecked(),malop);
-				
+				,editTextTen.getText().toString(),spinnerNghanhHoc.getSelectedItem().toString()
+				,RadioButtonNam.isChecked(),malop);
 				if(malop==bundle.getInt("ID_Lop")){
 					db.updateSV(sv);
 					dsSV.set(vitri, sv);
@@ -218,7 +216,6 @@ Bundle bundle;
 			}
 		});
 		buttonXoaTrang.setOnClickListener(new View.OnClickListener() {
-						
 						@Override
 						public void onClick(View v) {
 							editTextMa.setText("");
@@ -226,11 +223,9 @@ Bundle bundle;
 						}
 					});
 		buttonOke.setOnClickListener(new View.OnClickListener() {
-			
 			@Override
 			public void onClick(View v) {
 				try {
-				
 					ArrayList arMaLop=db.GetAllMaLop();
 					int vitriten=spinnerMaLop.getSelectedItemPosition();
 					int malop=(Integer)arMaLop.get(vitriten);

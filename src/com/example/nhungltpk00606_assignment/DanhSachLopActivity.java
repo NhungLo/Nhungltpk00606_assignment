@@ -83,7 +83,6 @@ AdapterLopPoly adapterLopPoly;
 					}
 				});
 				popupMenu.show();
-				
 				return false;
 			}
 		});
@@ -95,8 +94,7 @@ AdapterLopPoly adapterLopPoly;
 			}
 		});
 	}
-	public void startDSHS(){
-			
+	public void startDSHS(){		
 	}
 	
 	public void dialogxoalop(final int vitri) {
@@ -113,8 +111,7 @@ AdapterLopPoly adapterLopPoly;
 			}
 		});
 		dialogxoa.setNegativeButton("close",null);
-		dialogxoa.show();
-		
+		dialogxoa.show();	
 	}
 	public void dialogsualop(final int vitri){
 		dialogSualop=new Dialog(DanhSachLopActivity.this);
@@ -128,10 +125,12 @@ AdapterLopPoly adapterLopPoly;
 		buttonOke=(Button)dialogSualop.findViewById(R.id.btnLuulop);
 		buttonXoaTrang=(Button)dialogSualop.findViewById(R.id.btnXoatrang);
 		buttonClose.setOnClickListener(new View.OnClickListener() {
-			
-			@Override
+		LopPoly lopPoly = db.getLop(vitri);
+		//editTextMa.setText(lopPoly.getMaLop);
+		//editTextTen.setText(lopPoly.getTensv);
 			public void onClick(View v) {
 				dialogSualop.dismiss();
+				
 			}
 		});
 		buttonXoaTrang.setOnClickListener(new View.OnClickListener() {

@@ -4,6 +4,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 
 import android.R.integer;
+import android.R.string;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -89,7 +90,6 @@ public class Sqlite_database extends SQLiteOpenHelper{
 		db.update(Table_SinhVien, values, SV_ID+" =?", new  String[]{String.valueOf(sv.getID())});
 		db.close();	
 	}
-	
 	public ArrayList<LopPoly> GetAllLop(){
 		ArrayList<LopPoly> dsl=new ArrayList<LopPoly>();
 		String Get_All_Lop="SELECT * FROM "+Table_Lop;
@@ -105,6 +105,22 @@ public class Sqlite_database extends SQLiteOpenHelper{
 			}while(cursor.moveToNext());
 		}	
 		return dsl;
+	}
+	public LopPoly getLop(int id){
+		LopPoly lop=new LopPoly();
+		String Get_All_Lop="SELECT * FROM "+Table_Lop+"where"+Lop_ID+"="+String.valueOf(id);
+		SQLiteDatabase db=this.getWritableDatabase();
+		Cursor cursor=db.rawQuery(Get_All_Lop, null);
+		if(cursor.moveToFirst()){
+			do{
+				
+				lop.setID(cursor.getInt(0));
+				lop.setMaLop(cursor.getString(cursor.getColumnIndex(Lop_MaLop)));
+				lop.setTenLop(cursor.getString(cursor.getColumnIndex(Lop_TenLop)));
+					
+			}while(cursor.moveToNext());
+		}	
+		return lop;
 	}
 	public ArrayList<String> GetAllTenLop(){
 		ArrayList<String> dsl=new ArrayList<String>();

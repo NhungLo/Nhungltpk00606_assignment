@@ -87,4 +87,5 @@ Sqlite_database db= new Sqlite_database(this);
 		});
 		dialogthemlop.show();
 	}	
+	
 }

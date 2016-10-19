@@ -9,9 +9,17 @@ package com.example.nhungltpk00606_assignment;
 
 public final class R {
     public static final class array {
-        public static final int nghanhhoc=0x7f060000;
+        /**  Toolbar titles when navigation menu item is selected 
+         */
+        public static final int nav_item_activity_titles=0x7f070001;
+        public static final int nghanhhoc=0x7f070000;
     }
     public static final class attr {
+    }
+    public static final class color {
+        public static final int colorAccent=0x7f040002;
+        public static final int colorPrimary=0x7f040000;
+        public static final int colorPrimaryDark=0x7f040001;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -21,82 +29,134 @@ public final class R {
          would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
     
          */
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
+        /**  Default screen margins, per the Android Design guidelines. 
+         */
+        public static final int fab_margin=0x7f050004;
+        public static final int nav_header_height=0x7f050003;
+        /**  Default screen margins, per the Android Design guidelines. 
+         */
+        public static final int nav_header_vertical_spacing=0x7f050002;
+        public static final int profile_height=0x7f050006;
+        public static final int profile_width=0x7f050005;
     }
     public static final class drawable {
         public static final int anhdong=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
+        public static final int buttonselector=0x7f020001;
+        public static final int dr=0x7f020002;
+        public static final int dusty=0x7f020003;
+        public static final int eight=0x7f020004;
+        public static final int five=0x7f020005;
+        public static final int four=0x7f020006;
+        public static final int ic_launcher=0x7f020007;
+        public static final int nine=0x7f020008;
+        public static final int one=0x7f020009;
+        public static final int perfect=0x7f02000a;
+        public static final int perpal=0x7f02000b;
+        public static final int ripple=0x7f02000c;
+        public static final int rose=0x7f02000d;
+        public static final int roses=0x7f02000e;
+        public static final int rosess=0x7f02000f;
+        public static final int seven=0x7f020010;
+        public static final int six=0x7f020011;
+        public static final int stylebutton=0x7f020012;
+        public static final int stylebutton2=0x7f020013;
+        public static final int ten=0x7f020014;
+        public static final int three=0x7f020015;
+        public static final int two=0x7f020016;
+        public static final int typerose=0x7f020017;
     }
     public static final class id {
-        public static final int action_settings=0x7f090024;
-        public static final int btnClose_ok=0x7f09001a;
-        public static final int btnClose_thoat=0x7f09001c;
-        public static final int btnClose_xoatrang=0x7f09001b;
-        public static final int btnLuulop=0x7f09000d;
-        public static final int btnThemsinhvien=0x7f090006;
-        public static final int btnThoat=0x7f09000e;
-        public static final int btnXoatrang=0x7f09000c;
-        public static final int buttonQuanlysinhvien=0x7f090005;
-        public static final int buttonThemClass=0x7f090000;
-        public static final int buttonThemlop=0x7f090003;
-        public static final int buttonXemdsl=0x7f090004;
-        public static final int editTextMalop=0x7f090009;
-        public static final int editTextMasinhvien=0x7f090010;
-        public static final int editTextTensv=0x7f09000b;
-        public static final int imageView1=0x7f09001d;
-        public static final int listViewDanhSachLop=0x7f090001;
-        public static final int listViewDsachsv=0x7f090007;
-        public static final int menu_item_lop_chi_tiet=0x7f090027;
-        public static final int menu_item_lop_sua=0x7f090025;
-        public static final int menu_item_lop_xoa=0x7f090026;
-        public static final int menu_item_sv_sua=0x7f090028;
-        public static final int menu_item_sv_xoa=0x7f090029;
-        public static final int radioGroup1=0x7f090015;
-        public static final int radioNam=0x7f090016;
-        public static final int radioNu=0x7f090017;
-        public static final int spinnerMaLop=0x7f090013;
-        public static final int spinnerNghanhHoc=0x7f090019;
-        public static final int textView1_item_malop=0x7f090022;
-        public static final int textViewGioitinh=0x7f090014;
-        public static final int textViewLop=0x7f090012;
-        public static final int textViewMa=0x7f090002;
-        public static final int textViewMalop=0x7f090008;
-        public static final int textViewMasinhvien=0x7f09000f;
-        public static final int textViewNganhhoc=0x7f090018;
-        public static final int textViewTen=0x7f090023;
-        public static final int textViewTenlop=0x7f09000a;
-        public static final int textViewTsv=0x7f090011;
-        public static final int textView_item_gt=0x7f090020;
-        public static final int textView_item_masv=0x7f09001e;
-        public static final int textView_item_nghanhhoc=0x7f090021;
-        public static final int textView_item_ten=0x7f09001f;
+        public static final int action_settings=0x7f0a0023;
+        public static final int btnClose_ok=0x7f0a001a;
+        public static final int btnClose_thoat=0x7f0a001c;
+        public static final int btnClose_xoatrang=0x7f0a001b;
+        public static final int btnLuulop=0x7f0a000d;
+        public static final int btnThemsinhvien=0x7f0a0006;
+        public static final int btnThoat=0x7f0a000e;
+        public static final int btnXoatrang=0x7f0a000c;
+        public static final int buttonQuanlysinhvien=0x7f0a0005;
+        public static final int buttonThemClass=0x7f0a0000;
+        public static final int buttonThemlop=0x7f0a0003;
+        public static final int buttonXemdsl=0x7f0a0004;
+        public static final int editTextMalop=0x7f0a0009;
+        public static final int editTextMasinhvien=0x7f0a0010;
+        public static final int editTextTensv=0x7f0a000b;
+        public static final int listViewDanhSachLop=0x7f0a0001;
+        public static final int listViewDsachsv=0x7f0a0007;
+        public static final int menu_item_lop_chi_tiet=0x7f0a0026;
+        public static final int menu_item_lop_sua=0x7f0a0024;
+        public static final int menu_item_lop_xoa=0x7f0a0025;
+        public static final int menu_item_sv_sua=0x7f0a0027;
+        public static final int menu_item_sv_xoa=0x7f0a0028;
+        public static final int radioGroup1=0x7f0a0015;
+        public static final int radioNam=0x7f0a0016;
+        public static final int radioNu=0x7f0a0017;
+        public static final int spinnerMaLop=0x7f0a0013;
+        public static final int spinnerNghanhHoc=0x7f0a0019;
+        public static final int textView1_item_malop=0x7f0a0021;
+        public static final int textViewGioitinh=0x7f0a0014;
+        public static final int textViewLop=0x7f0a0012;
+        public static final int textViewMa=0x7f0a0002;
+        public static final int textViewMalop=0x7f0a0008;
+        public static final int textViewMasinhvien=0x7f0a000f;
+        public static final int textViewNganhhoc=0x7f0a0018;
+        public static final int textViewTen=0x7f0a0022;
+        public static final int textViewTenlop=0x7f0a000a;
+        public static final int textViewTsv=0x7f0a0011;
+        public static final int textView_item_gt=0x7f0a001f;
+        public static final int textView_item_masv=0x7f0a001d;
+        public static final int textView_item_nghanhhoc=0x7f0a0020;
+        public static final int textView_item_ten=0x7f0a001e;
     }
     public static final class layout {
         public static final int activity_danh_sach_lop=0x7f030000;
         public static final int activity_main=0x7f030001;
         public static final int activity_qlsv=0x7f030002;
-        public static final int dialogthemlop=0x7f030003;
-        public static final int dialogthemsv=0x7f030004;
-        public static final int gif=0x7f030005;
-        public static final int item_sinhvien=0x7f030006;
-        public static final int itemlop=0x7f030007;
+        public static final int activity_tranghome=0x7f030003;
+        public static final int dialogthemlop=0x7f030004;
+        public static final int dialogthemsv=0x7f030005;
+        public static final int giaitri_fgm=0x7f030006;
+        public static final int gioithieu_fgm=0x7f030007;
+        public static final int hello_fgm=0x7f030008;
+        public static final int item_sinhvien=0x7f030009;
+        public static final int itemlop=0x7f03000a;
+        public static final int phanbaitap_fgm=0x7f03000b;
     }
     public static final class menu {
-        public static final int main=0x7f080000;
-        public static final int menu_item_lop=0x7f080001;
-        public static final int menu_item_sv=0x7f080002;
-        public static final int qlsv=0x7f080003;
-        public static final int quan_ly_sv=0x7f080004;
+        public static final int main=0x7f090000;
+        public static final int menu_item_lop=0x7f090001;
+        public static final int menu_item_sv=0x7f090002;
+        public static final int qlsv=0x7f090003;
+        public static final int quan_ly_sv=0x7f090004;
     }
     public static final class string {
-        public static final int action_settings=0x7f050002;
-        public static final int app_name=0x7f050000;
-        public static final int hello_world=0x7f050001;
-        public static final int title_activity_danh_sach_lop=0x7f050003;
-        public static final int title_activity_dssv=0x7f050006;
-        public static final int title_activity_qlsv=0x7f050005;
-        public static final int title_activity_quan_ly_sv=0x7f050004;
+        public static final int action_clear_all=0x7f060013;
+        public static final int action_logout=0x7f060014;
+        public static final int action_mark_all_read=0x7f060015;
+        public static final int action_settings=0x7f060002;
+        public static final int activity_title_about_us=0x7f060011;
+        public static final int activity_title_privacy_policy=0x7f060012;
+        public static final int app_name=0x7f060000;
+        public static final int closeDrawer=0x7f06000a;
+        public static final int hello_world=0x7f060001;
+        public static final int nav_about_us=0x7f060010;
+        /**  Navigation Drawer menu labels 
+         */
+        public static final int nav_home=0x7f06000b;
+        public static final int nav_movies=0x7f06000d;
+        public static final int nav_notifications=0x7f06000e;
+        public static final int nav_photos=0x7f06000c;
+        public static final int nav_settings=0x7f06000f;
+        public static final int navigation_drawer_close=0x7f060008;
+        public static final int navigation_drawer_open=0x7f060007;
+        public static final int openDrawer=0x7f060009;
+        public static final int privacy_policy=0x7f060016;
+        public static final int title_activity_danh_sach_lop=0x7f060003;
+        public static final int title_activity_dssv=0x7f060006;
+        public static final int title_activity_qlsv=0x7f060005;
+        public static final int title_activity_quan_ly_sv=0x7f060004;
     }
     public static final class style {
         /** 
@@ -120,10 +180,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070001;
+        public static final int AppTheme=0x7f080001;
     }
 }
