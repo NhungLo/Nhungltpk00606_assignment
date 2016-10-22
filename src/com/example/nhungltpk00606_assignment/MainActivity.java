@@ -21,6 +21,7 @@ Sqlite_database db= new Sqlite_database(this);
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		
 		setContentView(R.layout.activity_main);
 		buttonDanhSachLop=(Button)findViewById(R.id.buttonXemdsl);
 		buttonQlsv=(Button)findViewById(R.id.buttonQuanlysinhvien);

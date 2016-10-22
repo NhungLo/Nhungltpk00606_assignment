@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="14"
+        android:minSdkVersion="11"
         android:targetSdkVersion="21" />
 
     <application
@@ -15,7 +15,7 @@
         android:theme="@style/AppTheme" >
        
         <activity
-            android:name=".MainActivity"
+            android:name=".TrangHome"
             android:label="trang chu" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,10 +34,17 @@
             android:name=".QLSVActivity"
             android:label="@string/title_activity_qlsv" >
         </activity>
+        <activity android:name="com.example.nhungltpk00606_assignment.MainActivity"></activity>
         <activity
             android:name=".DSSVActivity"
             android:label="@string/title_activity_dssv" >
         </activity>
-    </application>
+        <activity android:name="com.example.nhungltpk00606.fragment.GiaiTri_fm"></activity>
+       <activity android:name="com.example.nhungltpk00606.fragment.Hello_fm"></activity>
+       <activity android:name="com.example.nhungltpk00606.fragment.GioiThieu_fm"></activity>   
+       <activity android:name="com.example.nhungltpk00606.fragment.PhanBaiTap_fm"></activity> 
+       <activity android:name="com.example.nhungltpk00606.fragment.GioiThieu_fm_tab1"></activity>
+        <activity android:name="com.example.nhungltpk00606.fragment.GioiThieu_fm_tab2"></activity>
+       </application>
 
 </manifest>

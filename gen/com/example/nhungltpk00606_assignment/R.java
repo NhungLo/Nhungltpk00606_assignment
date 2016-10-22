@@ -9,10 +9,9 @@ package com.example.nhungltpk00606_assignment;
 
 public final class R {
     public static final class array {
-        /**  Toolbar titles when navigation menu item is selected 
-         */
-        public static final int nav_item_activity_titles=0x7f070001;
+        public static final int icons=0x7f070002;
         public static final int nghanhhoc=0x7f070000;
+        public static final int titles=0x7f070001;
     }
     public static final class attr {
     }
@@ -44,71 +43,98 @@ public final class R {
     public static final class drawable {
         public static final int anhdong=0x7f020000;
         public static final int buttonselector=0x7f020001;
-        public static final int dr=0x7f020002;
-        public static final int dusty=0x7f020003;
-        public static final int eight=0x7f020004;
-        public static final int five=0x7f020005;
-        public static final int four=0x7f020006;
-        public static final int ic_launcher=0x7f020007;
-        public static final int nine=0x7f020008;
-        public static final int one=0x7f020009;
-        public static final int perfect=0x7f02000a;
-        public static final int perpal=0x7f02000b;
-        public static final int ripple=0x7f02000c;
-        public static final int rose=0x7f02000d;
-        public static final int roses=0x7f02000e;
-        public static final int rosess=0x7f02000f;
-        public static final int seven=0x7f020010;
-        public static final int six=0x7f020011;
-        public static final int stylebutton=0x7f020012;
-        public static final int stylebutton2=0x7f020013;
-        public static final int ten=0x7f020014;
-        public static final int three=0x7f020015;
-        public static final int two=0x7f020016;
-        public static final int typerose=0x7f020017;
+        public static final int calculator_icon=0x7f020002;
+        public static final int dr=0x7f020003;
+        public static final int dusty=0x7f020004;
+        public static final int eight=0x7f020005;
+        public static final int fb=0x7f020006;
+        public static final int film_icon=0x7f020007;
+        public static final int five=0x7f020008;
+        public static final int four=0x7f020009;
+        public static final int giaitri_icon=0x7f02000a;
+        public static final int gplus=0x7f02000b;
+        public static final int homework=0x7f02000c;
+        public static final int ic_drawer=0x7f02000d;
+        public static final int ic_launcher=0x7f02000e;
+        public static final int location_icon=0x7f02000f;
+        public static final int nine=0x7f020010;
+        public static final int one=0x7f020011;
+        public static final int perfect=0x7f020012;
+        public static final int perpal=0x7f020013;
+        public static final int phan_bai_tap_icon=0x7f020014;
+        public static final int ripple=0x7f020015;
+        public static final int rose=0x7f020016;
+        public static final int roses=0x7f020017;
+        public static final int rosess=0x7f020018;
+        public static final int seven=0x7f020019;
+        public static final int six=0x7f02001a;
+        public static final int stylebutton=0x7f02001b;
+        public static final int stylebutton2=0x7f02001c;
+        public static final int tb=0x7f02001d;
+        public static final int ten=0x7f02001e;
+        public static final int three=0x7f02001f;
+        public static final int two=0x7f020020;
+        public static final int typerose=0x7f020021;
+        public static final int user_con=0x7f020022;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0023;
-        public static final int btnClose_ok=0x7f0a001a;
-        public static final int btnClose_thoat=0x7f0a001c;
-        public static final int btnClose_xoatrang=0x7f0a001b;
-        public static final int btnLuulop=0x7f0a000d;
+        public static final int action_settings=0x7f0a0033;
+        public static final int btnClose_ok=0x7f0a001d;
+        public static final int btnClose_thoat=0x7f0a001f;
+        public static final int btnClose_xoatrang=0x7f0a001e;
+        public static final int btnDn_hello=0x7f0a0026;
+        public static final int btnGiaitri=0x7f0a0020;
+        public static final int btnLuulop=0x7f0a0010;
         public static final int btnThemsinhvien=0x7f0a0006;
-        public static final int btnThoat=0x7f0a000e;
-        public static final int btnXoatrang=0x7f0a000c;
+        public static final int btnThoat=0x7f0a0011;
+        public static final int btnXoatrang=0x7f0a000f;
         public static final int buttonQuanlysinhvien=0x7f0a0005;
         public static final int buttonThemClass=0x7f0a0000;
         public static final int buttonThemlop=0x7f0a0003;
         public static final int buttonXemdsl=0x7f0a0004;
-        public static final int editTextMalop=0x7f0a0009;
-        public static final int editTextMasinhvien=0x7f0a0010;
-        public static final int editTextTensv=0x7f0a000b;
+        public static final int drawer_layout=0x7f0a0008;
+        public static final int editText1=0x7f0a0023;
+        public static final int editText2=0x7f0a0025;
+        public static final int editTextMalop=0x7f0a000c;
+        public static final int editTextMasinhvien=0x7f0a0013;
+        public static final int editTextTensv=0x7f0a000e;
+        public static final int frame_container=0x7f0a0009;
+        public static final int icon=0x7f0a002f;
+        public static final int imgbtnhw=0x7f0a0032;
         public static final int listViewDanhSachLop=0x7f0a0001;
         public static final int listViewDsachsv=0x7f0a0007;
-        public static final int menu_item_lop_chi_tiet=0x7f0a0026;
-        public static final int menu_item_lop_sua=0x7f0a0024;
-        public static final int menu_item_lop_xoa=0x7f0a0025;
-        public static final int menu_item_sv_sua=0x7f0a0027;
-        public static final int menu_item_sv_xoa=0x7f0a0028;
-        public static final int radioGroup1=0x7f0a0015;
-        public static final int radioNam=0x7f0a0016;
-        public static final int radioNu=0x7f0a0017;
-        public static final int spinnerMaLop=0x7f0a0013;
-        public static final int spinnerNghanhHoc=0x7f0a0019;
-        public static final int textView1_item_malop=0x7f0a0021;
-        public static final int textViewGioitinh=0x7f0a0014;
-        public static final int textViewLop=0x7f0a0012;
+        public static final int menu_item_lop_chi_tiet=0x7f0a0036;
+        public static final int menu_item_lop_sua=0x7f0a0034;
+        public static final int menu_item_lop_xoa=0x7f0a0035;
+        public static final int menu_item_sv_sua=0x7f0a0037;
+        public static final int menu_item_sv_xoa=0x7f0a0038;
+        public static final int radioGroup1=0x7f0a0018;
+        public static final int radioNam=0x7f0a0019;
+        public static final int radioNu=0x7f0a001a;
+        public static final int slider_list=0x7f0a000a;
+        public static final int spinnerMaLop=0x7f0a0016;
+        public static final int spinnerNghanhHoc=0x7f0a001c;
+        public static final int textView1=0x7f0a0021;
+        public static final int textView1_item_malop=0x7f0a002d;
+        public static final int textViewGioitinh=0x7f0a0017;
+        public static final int textViewLop=0x7f0a0015;
         public static final int textViewMa=0x7f0a0002;
-        public static final int textViewMalop=0x7f0a0008;
-        public static final int textViewMasinhvien=0x7f0a000f;
-        public static final int textViewNganhhoc=0x7f0a0018;
-        public static final int textViewTen=0x7f0a0022;
-        public static final int textViewTenlop=0x7f0a000a;
-        public static final int textViewTsv=0x7f0a0011;
-        public static final int textView_item_gt=0x7f0a001f;
-        public static final int textView_item_masv=0x7f0a001d;
-        public static final int textView_item_nghanhhoc=0x7f0a0020;
-        public static final int textView_item_ten=0x7f0a001e;
+        public static final int textViewMalop=0x7f0a000b;
+        public static final int textViewMasinhvien=0x7f0a0012;
+        public static final int textViewNganhhoc=0x7f0a001b;
+        public static final int textViewTen=0x7f0a002e;
+        public static final int textViewTenlop=0x7f0a000d;
+        public static final int textViewTsv=0x7f0a0014;
+        public static final int textView_item_gt=0x7f0a002b;
+        public static final int textView_item_masv=0x7f0a0029;
+        public static final int textView_item_nghanhhoc=0x7f0a002c;
+        public static final int textView_item_ten=0x7f0a002a;
+        public static final int title=0x7f0a0030;
+        public static final int txtDk_hello=0x7f0a0028;
+        public static final int txtMk_hello=0x7f0a0024;
+        public static final int txtQmk_hello=0x7f0a0027;
+        public static final int txtTendn_hello=0x7f0a0022;
+        public static final int txtTieudeas=0x7f0a0031;
     }
     public static final class layout {
         public static final int activity_danh_sach_lop=0x7f030000;
@@ -119,10 +145,13 @@ public final class R {
         public static final int dialogthemsv=0x7f030005;
         public static final int giaitri_fgm=0x7f030006;
         public static final int gioithieu_fgm=0x7f030007;
-        public static final int hello_fgm=0x7f030008;
-        public static final int item_sinhvien=0x7f030009;
-        public static final int itemlop=0x7f03000a;
-        public static final int phanbaitap_fgm=0x7f03000b;
+        public static final int gioithieu_fgm_tab1=0x7f030008;
+        public static final int giothieu_fgm_tab2=0x7f030009;
+        public static final int hello_fgm=0x7f03000a;
+        public static final int item_sinhvien=0x7f03000b;
+        public static final int itemlop=0x7f03000c;
+        public static final int list_item=0x7f03000d;
+        public static final int phanbaitap_fgm=0x7f03000e;
     }
     public static final class menu {
         public static final int main=0x7f090000;
@@ -132,27 +161,9 @@ public final class R {
         public static final int quan_ly_sv=0x7f090004;
     }
     public static final class string {
-        public static final int action_clear_all=0x7f060013;
-        public static final int action_logout=0x7f060014;
-        public static final int action_mark_all_read=0x7f060015;
         public static final int action_settings=0x7f060002;
-        public static final int activity_title_about_us=0x7f060011;
-        public static final int activity_title_privacy_policy=0x7f060012;
         public static final int app_name=0x7f060000;
-        public static final int closeDrawer=0x7f06000a;
         public static final int hello_world=0x7f060001;
-        public static final int nav_about_us=0x7f060010;
-        /**  Navigation Drawer menu labels 
-         */
-        public static final int nav_home=0x7f06000b;
-        public static final int nav_movies=0x7f06000d;
-        public static final int nav_notifications=0x7f06000e;
-        public static final int nav_photos=0x7f06000c;
-        public static final int nav_settings=0x7f06000f;
-        public static final int navigation_drawer_close=0x7f060008;
-        public static final int navigation_drawer_open=0x7f060007;
-        public static final int openDrawer=0x7f060009;
-        public static final int privacy_policy=0x7f060016;
         public static final int title_activity_danh_sach_lop=0x7f060003;
         public static final int title_activity_dssv=0x7f060006;
         public static final int title_activity_qlsv=0x7f060005;
