@@ -2,26 +2,27 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/buttonselector"
+    android:background="@drawable/ten"
     android:orientation="vertical"
-    android:padding="10dp" >
+    android:padding="20dp" >
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="28dp"
-        android:layout_marginTop="10dp" >
+        android:layout_height="wrap_content" >
 
         <TextView
             android:id="@+id/textViewMasinhvien"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mã SV"
+            android:text="Mã SV:"
+             android:textColor="#fff"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <EditText
             android:id="@+id/editTextMasinhvien"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+             android:textColor="#fff"
             android:ems="10" />
     </LinearLayout>
 
@@ -33,13 +34,16 @@
             android:id="@+id/textViewTsv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tên sinh viên"
+            android:text="Tên sinh viên:"
+            android:textColor="#fff"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <EditText
             android:id="@+id/editTextTensv"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#fff"
             android:ems="10" />
     </LinearLayout>
 
@@ -52,11 +56,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Lớp:"
+            android:textColor="#fff"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <Spinner
             android:id="@+id/spinnerMaLop"
             android:layout_width="wrap_content"
+             android:textColor="#fff"
             android:layout_height="32dp" />
 
     </LinearLayout>
@@ -69,7 +75,8 @@
             android:id="@+id/textViewGioitinh"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Giới tính"
+            android:text="Giới tính:"
+             android:textColor="#fff"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <RadioGroup
@@ -83,12 +90,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:checked="true"
+                 android:textColor="#fff"
                 android:text="Nam" />
 
             <RadioButton
                 android:id="@+id/radioNu"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                 android:textColor="#fff"
                 android:text="Nữ" />
 
         </RadioGroup>
@@ -103,13 +112,15 @@
             android:id="@+id/textViewNganhhoc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ngành học"
+            android:text="Ngành học:"
+             android:textColor="#fff"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <Spinner
             android:id="@+id/spinnerNghanhHoc"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
+             android:textColor="#fff"
             android:prompt="@array/nghanhhoc" />
 
     </LinearLayout>
@@ -122,33 +133,34 @@
             android:id="@+id/btnClose_ok"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="0.19"
+            android:layout_weight="0.2"
             android:background="@drawable/stylebutton2"
-             android:textColor="#fff"
+            android:text="Ok"
+            android:textColor="#fff"
             android:textSize="20dp"
-            android:textStyle="bold" 
-            android:text="Ok" />
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btnClose_xoatrang"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="0.4"
             android:background="@drawable/stylebutton2"
-             android:textColor="#fff"
+            android:text="Xóa trắng"
+            android:textColor="#fff"
             android:textSize="20dp"
-            android:textStyle="bold" 
-            android:text="XÓa trắng" />
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btnClose_thoat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="0.22"
+            android:layout_weight="0.4"
             android:background="@drawable/stylebutton2"
-             android:textColor="#fff"
+            android:text="Thoát"
+            android:textColor="#fff"
             android:textSize="20dp"
-            android:textStyle="bold" 
-            android:text="Thoát" />
+            android:textStyle="bold" />
 
     </LinearLayout>
 

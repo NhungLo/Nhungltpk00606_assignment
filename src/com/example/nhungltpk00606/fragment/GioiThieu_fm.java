@@ -23,11 +23,12 @@ public class GioiThieu_fm extends TabActivity{
 		TabHost tabhost=getTabHost();
 		TabSpec GioiThieu_tab1=tabhost.newTabSpec("first");
 		TabSpec GioiThieu_tab2=tabhost.newTabSpec("second");
-		GioiThieu_tab1.setIndicator("gioithieu");
+		GioiThieu_tab1.setIndicator("Giới thiệu");
 		GioiThieu_tab1.setContent(new Intent(this,GioiThieu_fm_tab1.class));
-		GioiThieu_tab2.setIndicator("lienhe");
+		GioiThieu_tab2.setIndicator("Liên hệ");
 		GioiThieu_tab2.setContent(new Intent(this,GioiThieu_fm_tab2.class));
 		tabhost.addTab(GioiThieu_tab1);
 		tabhost.addTab(GioiThieu_tab2);
+		
 	}
 }

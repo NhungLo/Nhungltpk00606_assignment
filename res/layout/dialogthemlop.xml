@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/buttonselector"
+    android:background="@drawable/four"
     android:orientation="vertical" >
 
     <LinearLayout
@@ -19,7 +19,8 @@
                 android:id="@+id/textViewMalop"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Mã Lớp"
+                android:text="Mã Lớp:"
+                 android:textColor="#fff"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <EditText
@@ -27,10 +28,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:ems="10" >
-
-                <requestFocus />
-            </EditText>
+                android:textColor="#fff"
+                android:ems="10" />
 
         </LinearLayout>
 
@@ -42,7 +41,8 @@
                 android:id="@+id/textViewTenlop"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tên Lớp"
+                android:text="Tên Lớp:"
+                android:textColor="#fff"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <EditText
@@ -50,6 +50,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="#fff"
                 android:ems="10" />
 
         </LinearLayout>
@@ -62,32 +63,33 @@
                 android:id="@+id/btnXoatrang"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="0.77"
                 android:background="@drawable/stylebutton2"
-                 android:textColor="#fff"
-            android:textSize="20dp"
-            android:textStyle="bold" 
-                android:text="Xóa trắng" />
+                android:text="Xóa trắng"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/btnLuulop"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="0.81"
                 android:background="@drawable/stylebutton2"
-                 android:textColor="#fff"
-            android:textSize="20dp"
-            android:textStyle="bold" 
-                android:text="Lưu Lớp" />
+                android:text="Lưu Lớp"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/btnThoat"
-                android:layout_width="match_parent"
+                android:layout_width="78dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/stylebutton2"
-                 android:textColor="#fff"
-            android:textSize="20dp"
-            android:textStyle="bold" 
-                android:text="Thoát" />
-
+                android:text="Thoát"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
         </LinearLayout>
 
     </LinearLayout>

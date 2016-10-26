@@ -14,7 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Click here to see some special,,,,,,"
+            android:text="click vào button dưới đây để đến với mục quản lý sv"
             android:textColor="#fff"
             android:textSize="20dp"
             android:textStyle="bold" />
@@ -23,7 +23,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
 
         <ImageButton
             android:id="@+id/imgbtnhw"

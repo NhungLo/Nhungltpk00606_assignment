@@ -35,11 +35,11 @@ AdapterLopPoly adapterLopPoly;
 		buttonThemLop=(Button)findViewById(R.id.buttonThemClass);
 		db.AddLopPoly(new LopPoly("lt01","lap trinh 01"));
 		db.AddLopPoly(new LopPoly("lt02","lap trinh 02"));
-		db.AddLopPoly(new LopPoly("lt03","lap trinh 04"));
-		db.AddLopPoly(new LopPoly("lt04","lap trinh 05"));
-		db.AddLopPoly(new LopPoly("lt05","lap trinh 06"));
-		db.AddLopPoly(new LopPoly("lt06","lap trinh 07"));
-		db.AddLopPoly(new LopPoly("lt07","lap trinh 08"));
+		db.AddLopPoly(new LopPoly("lt03","lap trinh 03"));
+		db.AddLopPoly(new LopPoly("lt04","lap trinh 04"));
+		db.AddLopPoly(new LopPoly("lt05","lap trinh 05"));
+		db.AddLopPoly(new LopPoly("lt06","lap trinh 06"));
+		db.AddLopPoly(new LopPoly("lt07","lap trinh 07"));
 		dsl=db.GetAllLop();
 		Toast.makeText(getApplicationContext(),
 		dsl.get(1).getMaLop(), Toast.LENGTH_LONG).show();
@@ -126,8 +126,8 @@ AdapterLopPoly adapterLopPoly;
 		buttonXoaTrang=(Button)dialogSualop.findViewById(R.id.btnXoatrang);
 		buttonClose.setOnClickListener(new View.OnClickListener() {
 		LopPoly lopPoly = db.getLop(vitri);
-		//editTextMa.setText(lopPoly.getMaLop);
-		//editTextTen.setText(lopPoly.getTensv);
+//		editTextMa.setText(lopPoly.getMaLop());
+//		editTextTen.setText(lopPoly.getTenLop());
 			public void onClick(View v) {
 				dialogSualop.dismiss();
 				

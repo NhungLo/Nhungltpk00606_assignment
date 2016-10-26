@@ -4,32 +4,31 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+     <ImageView
+         android:id="@+id/im"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:contentDescription="Day la anh dong"
+         android:paddingTop="40dp"
+         android:src="@drawable/my_animation" />
 
-        <Button
-            android:id="@+id/btnGiaitri"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/buttonselector"
-            android:text="click thử" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
-
-        <ImageView
-            android:id="@+id/imageViewanh"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/anhdong" />
-
-    </LinearLayout>
+     <TextView
+         android:id="@+id/tv1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:paddingTop="30dp"
+         android:text="ahihi, Let&apos;s see and Enjoy it :D :p "
+         android:textColor="#FF5BC9"
+         android:textStyle="bold" />
+ 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/buttonselector" />
 
 </LinearLayout>

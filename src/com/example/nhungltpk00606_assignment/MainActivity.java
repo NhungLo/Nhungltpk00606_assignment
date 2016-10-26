@@ -37,7 +37,7 @@ Sqlite_database db= new Sqlite_database(this);
 			
 			@Override
 			public void onClick(View v) {
-				Intent intent=new Intent(MainActivity.this,QLSVActivity.class);
+				Intent intent=new Intent(getApplicationContext(),TrangHome.class);
 				startActivity(intent);
 			}
 		});

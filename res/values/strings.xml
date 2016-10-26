@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+	
     <string name="app_name">Nhungltpk00606_assignment</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -25,19 +25,23 @@
     
  
      <string-array name="titles">
-         <item>Hello</item>
+         <item>Tài khoản</item>
          <item>Giới thiệu</item>
         <item>Giải trí</item>
-        <item>phần bài tập</item>
+        <item>Quản lí Sinh viên</item>
+        <item>Vị trí</item>
+        <item>Wikipedia</item>
     </string-array>
 
     <array name="icons">
         <item>@drawable/phan_bai_tap_icon</item>
-        <item>@drawable/user_con</item>
+        <item>@drawable/usericon</item>
         <item>@drawable/film_icon</item>
         <item>@drawable/giaitri_icon</item>
-       
+        <item>@drawable/location_icon</item>
+       <item>@drawable/wikipedia</item>
     </array>
  
-
+	<string name="loginsuccess">Đăng nhập thành công!</string>
+	<string name="loginerror">Tài khoản hoặc mật khẩu sai</string>
 </resources>

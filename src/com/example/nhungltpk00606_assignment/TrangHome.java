@@ -6,7 +6,9 @@ import java.util.List;
 import com.example.nhungltpk00606.fragment.GiaiTri_fm;
 import com.example.nhungltpk00606.fragment.GioiThieu_fm;
 import com.example.nhungltpk00606.fragment.Hello_fm;
+import com.example.nhungltpk00606.fragment.Location;
 import com.example.nhungltpk00606.fragment.PhanBaiTap_fm;
+import com.example.nhungltpk00606.fragment.Wikipedia;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -123,6 +125,14 @@ public class TrangHome extends Activity {
 		case 3:
 			Intent intent3=new Intent(getApplicationContext(),PhanBaiTap_fm.class);
 			startActivity(intent3);
+			break;
+		case 4:
+			Intent intent4=new Intent(getApplicationContext(),Location.class);
+			startActivity(intent4);
+			break;
+		case 5:
+			Intent intent5=new Intent(getApplicationContext(),Wikipedia.class);
+			startActivity(intent5);
 			break;
 		default:
 			break;
